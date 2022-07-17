@@ -24,3 +24,17 @@ a:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
+@media (max-width: 500px) {
+    .container{
+        top: 30px;
+        right: auto;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        margin-right: 12px;
+        font-size: 18px;
+    }
+}
