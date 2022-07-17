@@ -40,10 +40,28 @@
     border: 2px solid $gold-color;
     color: $gold-color;
     position: absolute;
-    bottom: 50px;    
+    bottom: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins-R;
 }
 .downloadBtn:hover{
     border: 2px solid white;
     color: $black-color;
     background-color: $gold-color;    
+}
+
+.contacts{
+    margin-top: 40px;
+    display: flex;
+    width: 170px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gitImg{
+    width: 24px;
+}
+.telegramImg{
+    width: 24px;
 }
