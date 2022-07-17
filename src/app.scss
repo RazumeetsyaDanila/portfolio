@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    // font-family: Poppins-R;
+    // font-family: Poppins-M;
+    // font-family: 'PermanentMarker';
+}
+
+// ------------ Colors --------------
+$gold-color: #FFB800;
+$black-color: #020202;
+$grey-color: #252525;
+
+// ------------ Fonts ---------------
+@font-face {
+    font-family: 'Poppins-M';
+    src: url('fonts/Poppins-Medium.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'Poppins-R';
+    src: url('fonts/Poppins-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('fonts/PermanentMarker-Regular.ttf')  format('truetype')
+}
