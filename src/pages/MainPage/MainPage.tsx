@@ -20,7 +20,7 @@ const MainPage: React.FC = () => {
             <p className={s.sayMyName}>Danil Kozhemyakin</p>
             <p className={s.info}>Full Stack Software Developer</p>
             {/* <button onClick={saveFile}>download</button> */}
-            {/* <NavLink to='../../../public/files/test.txt' target="_blank" download>Download</NavLink> */}
+            <NavLink to='/files/test.pdf' target="_blank" download>Download</NavLink>
         </div>
     );
 };
