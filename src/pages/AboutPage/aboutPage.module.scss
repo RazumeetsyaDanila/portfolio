@@ -1,6 +1,66 @@
-@import '../../app.scss';
+@import "../../app.scss";
 
-.container{
+.container {
     height: 100vh;
     background-color: $grey-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.imgBox {
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 10px 0 0 10px;
+    border-right: 0;
+}
+
+.infoBox {
+    height: 500px;
+    width: 700px;
+    border: 3px solid white;
+    background-color: $black-color;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-family: Poppins-R;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infoBorderBox{
+    height: 480px;
+    width: 680px;
+    border: 2px solid $gold-color;
+    padding: 8px 14px 8px 14px;
+    border-radius: 0 8px 8px 0;
+}
+
+.infoText{
+    // style={{textAlign: "justify", marginBottom: 20+"px"}};
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.sayMyName{
+    font-family: PermanentMarker;
+    color: $gold-color;
+    font-size: 26px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.skillsList{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+}
+
+.skillsList li {
+    color: $gold-color;
+}
+
