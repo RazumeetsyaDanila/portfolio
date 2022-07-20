@@ -24,7 +24,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        margin-top: 70px;
+        margin-bottom: 170px;
+        margin-top: 65px;
+    }
+
+    .container .card {
+        height: 200px;
+    }
+
+    .card:hover .face.face2{
+        z-index: 2;
     }
 }
 
@@ -35,7 +44,7 @@
 
 .container .card .face {
     width: 300px;
-    height: 200px;
+    height: 160px;
     transition: 0.5s;
 }
 
@@ -46,8 +55,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
-    /* padding: 10px; */
+    transform: translateY(60px);
 }
 
 .container .card:hover .face.face1 {
