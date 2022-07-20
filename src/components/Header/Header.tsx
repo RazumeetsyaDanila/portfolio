@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <div className={s.container}>
             <NavLink to="/" className={({ isActive }) =>isActive ? s.active : undefined }><div>MAIN</div></NavLink>
             <NavLink to="/about" className={({ isActive }) =>isActive ? s.active : undefined }><div>ABOUT</div></NavLink>
-            <NavLink to="/work" className={({ isActive }) =>isActive ? s.active : undefined }><div>WORK</div></NavLink>
+            <NavLink to="/work" className={({ isActive }) =>isActive ? s.active : undefined }><div>WORKS</div></NavLink>
             <NavLink to="/contact" className={({ isActive }) =>isActive ? s.active : undefined }><div>CONTACT</div></NavLink>
         </div>
     );

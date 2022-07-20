@@ -26,10 +26,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.infoBorderBox{
+.infoBorderBox {
     height: 480px;
     width: 680px;
     border: 2px solid $gold-color;
@@ -37,24 +36,24 @@
     border-radius: 0 8px 8px 0;
 }
 
-.infoText{
+.infoText {
     // style={{textAlign: "justify", marginBottom: 20+"px"}};
     text-align: justify;
     margin-bottom: 20px;
-    font-size: 10px;
+    font-size: 16px;
 }
 
-.sayMyName{
+.sayMyName {
     font-family: PermanentMarker;
     color: $gold-color;
     font-size: 26px;
 }
 
-.title{
+.title {
     font-size: 24px;
 }
 
-.skillsList{
+.skillsList {
     display: flex;
     justify-content: space-between;
     padding-left: 14px;
@@ -64,3 +63,36 @@
     color: $gold-color;
 }
 
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imgBox {
+        border: 3px solid white;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 0;
+        width: 90vw;
+        object-fit: cover;
+        margin-top: 90px;
+    }
+
+    .infoBox {        
+        height: auto;
+        width: 90vw;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 30px;
+    }
+
+    .infoBorderBox {
+        height: auto;
+        width: 85vw;
+        border-radius: 0 0 8px 8px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .skillsList{
+        flex-direction: column;
+    }
+}

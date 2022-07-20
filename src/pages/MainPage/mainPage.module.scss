@@ -61,7 +61,21 @@
 
 .gitImg{
     width: 24px;
+    opacity: 0.7;
+}
+.gitImg:hover{
+    opacity: 1;
 }
 .telegramImg{
     width: 24px;
+    opacity: 0.7;
+}
+.telegramImg:hover{
+    opacity: 1;
+}
+.mailImg{
+    opacity: 0.7;
+}
+.mailImg:hover{
+    opacity: 1;
 }
