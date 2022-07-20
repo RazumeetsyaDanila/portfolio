@@ -42,13 +42,24 @@
     position: absolute;
     bottom: 50px;
     text-decoration: none;
-    color: white;
+    color: #7c7c7c;
     font-family: Poppins-R;
+    display: flex;
+    align-items: center;
+}
+.downloadBtn img {
+    opacity: 0.4;
+    width: 22px;
+    margin-left: 6px;
 }
 .downloadBtn:hover{
     border: 2px solid white;
     color: $black-color;
     background-color: $gold-color;    
+}
+
+.downloadBtn:hover img {
+    opacity: 1;
 }
 
 .contacts{

@@ -5,6 +5,7 @@ import avatar from '../../img/avatar.jpg'
 import githubImg from '../../img/github.png'
 import telegramImg from '../../img/telegram.png'
 import mailImg from '../../img/mail.png'
+import downloadImg from '../../img/downloadImg.png'
 
 
 const MainPage: React.FC = () => {
@@ -21,7 +22,7 @@ const MainPage: React.FC = () => {
                 <a href="https://github.com/RazumeetsyaDanila" target="_blank" rel="noreferrer"><img className={s.gitImg} src={githubImg} alt="" /></a>
             </div>
 
-            <NavLink to='/files/rezume.pdf' target="_blank" download className={s.downloadBtn}>Download resume</NavLink>
+            <NavLink to='/files/rezume.pdf' target="_blank" download className={s.downloadBtn}>Download resume <img src={downloadImg} alt="" /> </NavLink>
         </div>
     );
 };
