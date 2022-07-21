@@ -22,7 +22,7 @@ const MainPage: React.FC = () => {
                 <a href="https://github.com/RazumeetsyaDanila" target="_blank" rel="noreferrer"><img className={s.gitImg} src={githubImg} alt="" /></a>
             </div>
 
-            <NavLink to='/files/rezume.pdf' target="_blank" download className={s.downloadBtn}>Download resume <img src={downloadImg} alt="" /> </NavLink>
+            <NavLink to='/files/razumeetsyaCV.pdf' target="_blank" download className={s.downloadBtn}>Download CV <img src={downloadImg} alt="" /> </NavLink>
         </div>
     );
 };
