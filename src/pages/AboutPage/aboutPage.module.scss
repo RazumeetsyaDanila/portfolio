@@ -36,11 +36,20 @@
     border-radius: 0 8px 8px 0;
 }
 
-.infoText {
+.infoTextEng {
     // style={{textAlign: "justify", marginBottom: 20+"px"}};
     text-align: justify;
     margin-bottom: 20px;
     font-size: 16px;
+}
+
+.infoTextRu {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: Jost-R;
+    height: 225px;
+    line-height: 1.5;
 }
 
 .sayMyName {
@@ -95,4 +104,32 @@
     .skillsList{
         flex-direction: column;
     }
+    .infoTextRu {
+        height: auto;
+    }
+    
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.langContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74px;
+    font-size: 22px;
+}
+
+.lang{
+    opacity: 0.7;
+}
+.lang:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.langActive{
+    color: $gold-color;
 }
