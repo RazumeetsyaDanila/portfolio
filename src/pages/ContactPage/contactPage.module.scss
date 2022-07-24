@@ -3,4 +3,28 @@
 .container{
     height: 100vh;
     background-color: $grey-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins-R';
+}
+
+.container a{
+    
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    &:hover{
+        color: $gold-color;
+        opacity: 1;
+    }
+}
+
+.contactBox{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }

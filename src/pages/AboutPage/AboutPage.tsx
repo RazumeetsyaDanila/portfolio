@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './aboutPage.module.scss'
-import avatar from '../../img/avatar3.jpg'
+import avatar from '../../img/avatar4.jpg'
 
 const AboutPage: React.FC<any> = ({ lang, setLang }) => {
     return (
