@@ -26,5 +26,36 @@
     width: 320px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.copyImg{
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+    opacity: 0.8;
+    &:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+.copiedBox{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-self: center;
+}
+
+.copyBox{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-self: center;
+    opacity: 0.8;
+    &:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
 }

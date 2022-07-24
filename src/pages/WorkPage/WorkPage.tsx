@@ -18,7 +18,7 @@ const WorkPage: React.FC = () => {
                     <div className={s.face + ' ' + s.face2}>
                         <div className={s.content}>
                             <p>A small duel game between a dragon and a knight (using dice)...</p>
-                            <a href="#">Read More</a>
+                            <a href="https://dnd.razumeetsya.ru/" target="_blank">Demo</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const WorkPage: React.FC = () => {
                     <div className={s.face + ' ' + s.face2}>
                         <div className={s.content}>
                             <p>A website for filling out astrological questionnaires, made to order...</p>
-                            <a href="#">Read More</a>
+                            <a href="https://test.astrozazhigalka.ru/" target="_blank">Demo</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const WorkPage: React.FC = () => {
                     <div className={s.face + ' ' + s.face2}>
                         <div className={s.content}>
                             <p>An application that includes both a frontend and a backend part...</p>
-                            <a href="#">Read More</a>
+                            <a href="#">Read more</a>
                         </div>
                     </div >
                 </div >
