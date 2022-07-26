@@ -45,14 +45,12 @@
     display: flex;
     font-size: 12px;
     align-items: center;
-    justify-self: center;
 }
 
 .copyBox{
     display: flex;
     font-size: 12px;
     align-items: center;
-    justify-self: center;
     opacity: 0.8;
     &:hover{
         opacity: 1;
