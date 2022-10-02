@@ -18,7 +18,7 @@ const WorkPage: React.FC = () => {
                     <div className={s.face + ' ' + s.face2}>
                         <div className={s.content}>
                             <p>A small duel game between a dragon and a knight (using dice)...</p>
-                            <a href="https://dnd.razumeetsya.ru/" target="_blank">Demo</a>
+                            <a href="https://dnd.danilas.ru/" target="_blank">Demo</a>
                         </div>
                     </div>
                 </div>
